@@ -23,8 +23,8 @@ Based on:
 - Predicts liver span based on height and age
 - Classifies hepatomegaly:
   - ±2 cm = Normal
-  - +2–3 cm = Mild hepatomegaly
-  - +3–4 cm = Moderate hepatomegaly
+  - 2–3 cm = Mild hepatomegaly
+  - 3–4 cm = Moderate hepatomegaly
   - >4 cm = Severe hepatomegaly
 - Exports results as a PDF
 - Easy GUI built with Tkinter
