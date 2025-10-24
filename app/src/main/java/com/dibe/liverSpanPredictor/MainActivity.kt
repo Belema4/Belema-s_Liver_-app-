@@ -111,7 +111,7 @@ fun MainScreen(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = "Liver Span Calculator",
+            text = "Liver Span Classifier",
             style = MaterialTheme.typography.headlineSmall.copy(
                 fontWeight = FontWeight.Bold,
                 textAlign = TextAlign.Center
@@ -129,7 +129,7 @@ fun MainScreen(
         OutlinedTextField(
             value = height,
             onValueChange = onHeightChange,
-            label = { Text("Height (cm)") },
+            label = { Text("Height (M)") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             singleLine = true,
             modifier = Modifier.fillMaxWidth(),
@@ -149,7 +149,7 @@ fun MainScreen(
         OutlinedTextField(
             value = measuredSpan,
             onValueChange = onMeasuredChange,
-            label = { Text("Measured Liver Span (M)") },
+            label = { Text("Measured Liver Span (CM)") },
             keyboardOptions = KeyboardOptions(keyboardType = KeyboardType.Number),
             singleLine = true,
             modifier = Modifier.fillMaxWidth(),
